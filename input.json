@@ -1,0 +1,26 @@
+{
+    "class": {
+        "type": "category",
+        "image": [
+            "mildDemmentia",
+            "moderateDementia",
+            "nonDementia",
+            "verymildDementia"
+        ]
+    },
+    "input": {
+        "type": "bool"
+    },
+    "Dependents": {
+        "type": "bool"
+    },
+    "independents": {
+        "type": "bool"
+    },
+    "Loan": {
+        "type": "float"
+    },
+    "unLoan": {
+        "type": "float"
+    }
+}

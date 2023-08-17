@@ -1,0 +1,42 @@
+{
+    "name": "Alzheimer's Disease Detection",
+    "description": "A machine learning model for detecting Alzheimer's disease based on brain imaging data.",
+    "version": "1.0",
+    "author": "Sayyad Hussain",
+    "email": "sayyadhussain315@gmail.com",
+    "license": " ",
+    "repository": "https://github.com/Sayyad-hussain/alzheimer-classification-system/",
+
+    "keywords": ["alzheimer", "classification", "detection", "deep learning", "brain imaging"],
+
+    "dependencies": {
+      "python": "3.8.5",
+      "tensorflow": "2.5.0",
+      "scikit-learn": "0.24.2",
+      "numpy": "1.21.0",
+      "matplotlib": "3.4.3"
+    },
+    "dataset": {
+      "name": "Alzheimer's MRI Dataset",
+      "description": "A dataset containing MRI scans of individuals with and without Alzheimer's disease.",
+      "url": "https://content/drive/MyDrive/Alzheimer_s Dataset",
+      "license": " "
+    },
+    "model": {
+      "name": "RestNet50v2",
+      "description": "A convolutional neural network architecture for Alzheimer's disease detection.",
+      "architecture": "CNN",
+      "pretrained_weights": "https://colab.research.google.com/drive/12O1QYZ7RmWV_3yAm2I5rrK2wTPKXJB-J",
+      "hyperparameters": {
+        "learning_rate": 0.001,
+        "batch_size": 64,
+        "epochs": 50
+      }
+    },
+    "evaluation": {
+      "metrics": ["Result","0","1","2","3"],
+      "acc": 0.9643,
+      "val-acc": 0.9500
+    }
+  }
+  
